@@ -2,7 +2,7 @@
 
 
 Code accompanying *Selective convergence and graded divergence of hippocampal
-and amygdala subregions across the human cortex*.
+and amygdala subregions*.
 
 doi: https://doi.org/10.64898/2026.07.06.736898
 
