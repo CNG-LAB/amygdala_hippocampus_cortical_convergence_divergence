@@ -1,0 +1,22 @@
+# Local paths and credentials
+HCP/2025_release_analysis/config.sh
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Generated analysis output
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.gii
+*.csv
+*.tsv
+*.png
+*.pdf
+slurm-*.out
+slurm-*.err

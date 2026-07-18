@@ -1,0 +1,7 @@
+HippUnfold 1.5.1
+hippunfold_toolbox commit fbd5d76a9f59f616fd9a4416c4785d5083868ab8
+DataLad 1.1.5
+FreeSurfer 7.4.1
+FSL 6.0.7.11
+ActflowToolbox 0.3.2
+Connectome-Workbench 2.1.0
