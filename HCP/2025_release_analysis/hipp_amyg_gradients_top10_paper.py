@@ -8,7 +8,7 @@ projects the gradients to Glasser cortex and subcortical surfaces.
 
 Configuration is loaded from the environment after sourcing ``config.sh``.
 
-Important assumptions: The script assumes the same fixed node order as the subject-level connectivity script. For GLASSO, zeros are treated as absent edges during group averaging, and positive support prevalence is used for top-10% union selection. For Pearson, positive group-average correlations are used for top-10% union selection. The top-10% union is used for cortical projection/mapping, while gradients are computed from the full hippocampus–amygdala to kept-cortex matrix.
+Important assumptions: The script assumes the same fixed node order as the subject-level connectivity script. For GLASSO, zeros are treated as absent edges during group averaging. The top-10% union is retained only for diagnostic and supplementary mapping; gradients and the main Figure 4 cortical projections use the full retained seed-to-cortex matrix, consensus-masked for GLASSO.
 
 Output: Group-level gradient arrays, eigenvalue summaries, top-10% cortical union indices, cortical gradient projection maps, hippocampal surface gradient plots, amygdala volumetric gradient plots, Yeo-7 summaries, MSR correspondence heatmaps, and TSV summaries.
 """
